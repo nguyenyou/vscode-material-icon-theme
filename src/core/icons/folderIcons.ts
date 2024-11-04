@@ -319,7 +319,7 @@ export const folderIcons: FolderTheme[] = [
         name: 'folder-temp',
         folderNames: ['temp', 'tmp', 'cached', 'cache'],
       },
-      { name: 'folder-aws', folderNames: ['aws', 'azure', 'gcp']},
+      { name: 'folder-aws', folderNames: ['aws', 'azure', 'gcp'] },
       {
         name: 'folder-audio',
         folderNames: [
@@ -622,7 +622,14 @@ export const folderIcons: FolderTheme[] = [
       { name: 'folder-changesets', folderNames: ['changesets', 'changeset'] },
       {
         name: 'folder-packages',
-        folderNames: ['package', 'packages', 'pkg', 'pkgs'],
+        folderNames: [
+          'package',
+          'packages',
+          'pkg',
+          'pkgs',
+          'serverpackages',
+          'devpackages',
+        ],
       },
       { name: 'folder-shared', folderNames: ['shared', 'common'] },
       {
@@ -936,7 +943,11 @@ export const folderIcons: FolderTheme[] = [
       {
         name: 'folder-vitepress',
         folderNames: ['.vitepress'],
-      }
+      },
+      {
+        name: 'folder-luau',
+        folderNames: ['luau'],
+      },
     ],
   },
   {
