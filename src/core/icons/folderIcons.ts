@@ -85,6 +85,10 @@ export const folderIcons: FolderTheme[] = [
         folderNames: ['test', 'tests', 'testing', 'snapshots', 'spec', 'specs'],
       },
       {
+        name: 'folder-directive',
+        folderNames: ['directive, directives'],
+      },
+      {
         name: 'folder-jinja',
         folderNames: ['jinja', 'jinja2', 'j2'],
         light: true,
@@ -718,6 +722,8 @@ export const folderIcons: FolderTheme[] = [
           'certificate',
           'certificates',
           'ssl',
+          'cipher',
+          'cypher',
           'tls',
         ],
       },

@@ -102,6 +102,7 @@ export const fileIcons: FileIcons = {
       ],
       fileNames: ['.htaccess'],
     },
+    { name: 'toml', fileExtensions: ['toml'], light: true },
     {
       name: 'image',
       fileExtensions: [
@@ -295,7 +296,6 @@ export const fileIcons: FileIcons = {
         'settings',
         'option',
         'props',
-        'toml',
         'prefs',
         'sln.dotsettings',
         'sln.dotsettings.user',
@@ -780,7 +780,7 @@ export const fileIcons: FileIcons = {
     { name: 'rust', fileExtensions: ['rs', 'ron'] },
     { name: 'raml', fileExtensions: ['raml'] },
     { name: 'xaml', fileExtensions: ['xaml'] },
-    { name: 'haskell', fileExtensions: ['hs'] },
+    { name: 'haskell', fileExtensions: ['hs', 'lhs'] },
     { name: 'kotlin', fileExtensions: ['kt', 'kts'] },
     {
       name: 'mist',
@@ -1262,6 +1262,7 @@ export const fileIcons: FileIcons = {
         '.env.test.local',
         '.env.uat',
         '.vars',
+        '.dev.vars',
       ],
     },
     {
@@ -1987,7 +1988,7 @@ export const fileIcons: FileIcons = {
       name: 'fortran',
       fileExtensions: ['f', 'f77', 'f90', 'f95', 'f03', 'f08'],
     },
-    { name: 'tcl', fileExtensions: ['tcl'] },
+    { name: 'tcl', fileExtensions: ['tcl', 'do'] },
     { name: 'liquid', fileExtensions: ['liquid'] },
     { name: 'prolog', fileExtensions: ['p', 'pro', 'pl'] },
     {
@@ -2516,6 +2517,7 @@ export const fileIcons: FileIcons = {
         '.hg',
         '.hgignore',
         '.hgflow',
+        '.hgtags',
         '.hgrc',
         'hgrc',
         'mercurial.ini',
@@ -2861,12 +2863,7 @@ export const fileIcons: FileIcons = {
     },
     {
       name: 'installation',
-      fileNames: [
-        'installation',
-        'installation.md',
-        'installation.rst',
-        'installation.txt',
-      ],
+      fileNames: ['install', 'installation'],
     },
     {
       name: 'github-sponsors',
@@ -2875,6 +2872,27 @@ export const fileIcons: FileIcons = {
     {
       name: 'minecraft-fabric',
       fileNames: ['fabric.mod.json'],
+    },
+    {
+      name: 'umi',
+      patterns: {
+        '.umirc': FileNamePattern.Ecmascript,
+      },
+    },
+    {
+      name: 'pm2-ecosystem',
+      patterns: {
+        'ecosystem.config': FileNamePattern.Ecmascript,
+      },
+    },
+    { name: 'hosts', fileNames: ['hosts'], light: true },
+    {
+      name: 'citation',
+      fileNames: ['citation.cff'],
+    },
+    {
+      name: 'subtitles',
+      fileExtensions: ['srt', 'ssa', 'ttml', 'sbv', 'dfxp', 'vtt'],
     },
   ]),
 };
